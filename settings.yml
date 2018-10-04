@@ -1,0 +1,7 @@
+production:
+  tree_service_url: 'http://tree.service.test/tree'
+development:
+  tree_service_url: 'http://tree.service.test/tree'
+test:
+  tree_service_url: 'http://tree.service.test/tree'
+

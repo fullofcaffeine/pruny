@@ -1,0 +1,29 @@
+Metrics/LineLength:
+  Max: 120
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/SymbolProc:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
