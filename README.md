@@ -8,9 +8,11 @@ features:
 * Filtering of trees by indicators nodes;
 * Service resilience.
 
-Pruny was the product of an exercise I made for a previous job interview and I'm making it available here mainly to illustrate:
+Pruny was the product of an exercise I made for a previous job interview and I'm making it available here hoping that it might be useful to someone else as a learning resource.
+
+It mainly to illustrate:
 * How to create a microservce that exposes an HTTP API with a Sinatra component;
-* A homebrew tree structure that can be created from a json-like structure (array and or hash in Ruby), searched, filtered and converted back to json and served as `application/json` through HTTP.
+* A homebrew tree structure that can be created from a json-like structure (array and or hash in Ruby), searched, filtered (pruned) and converted back to json and served as `application/json` through HTTP.
 
 The original private repo had a URL pointing to another service (what I called `FaultyTreeService` above) that returned a big tree but that was also, as
 its name imples, flaky - it failed several times during requests. In this version I'm removing the URL to this service, but you can see an example of
