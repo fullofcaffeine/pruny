@@ -13,6 +13,7 @@ gem 'sinatra'
 group :development do
   gem 'puma'
   gem 'rubocop', require: false
+  gem 'dotenv'
 end
 
 group :test do

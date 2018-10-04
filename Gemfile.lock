@@ -7,6 +7,7 @@ GEM
     byebug (9.1.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
+    dotenv (2.5.0)
     faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
@@ -67,6 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  dotenv
   faraday (= 0.15.3)
   faraday_middleware
   m
